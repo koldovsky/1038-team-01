@@ -15,34 +15,33 @@
 
   .image-container {
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
    margin-bottom: 20px;
   }
 
   .image-container img {
-   width: 45%;
+   width: 60%;
+   margin: 0 70px;
   }
 
   h2 {
    margin: 10px 0;
   }
 
-  .list-container {
+  .service-container {
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
   }
 
-  .list-container .list {
-   width: 45%;
-   text-align: left;
-  }
-
-  ul {
+  .service-container ul {
    list-style-type: none;
    padding: 0;
   }
 
-  li {
+  .service-container li {
    margin-bottom: 5px;
   }
  </style>
@@ -51,12 +50,8 @@
  <p>We offer all kinds of services related to web development, design, and digital marketing.</p>
 
  <div class="image-container">
-  <img src="img/services/templaptop.png" alt="laptop1">
-  <img src="img/services/templaptop.png" alt="laptop2">
- </div>
-
- <div class="list-container">
-  <div class="list">
+  <div class="service-container">
+   <img src="img/services/templaptop.png" alt="laptop1">
    <h2>Business Strategy and Planning</h2>
    <ul>
     <li>Discover and planning</li>
@@ -65,7 +60,8 @@
     <li>Content strategy</li>
    </ul>
   </div>
-  <div class="list">
+  <div class="service-container">
+   <img src="img/services/templaptop.png" alt="laptop2">
    <h2>All Kinds of Designed Services</h2>
    <ul>
     <li>Website design</li>
@@ -75,5 +71,4 @@
    </ul>
   </div>
  </div>
-
 </section>
