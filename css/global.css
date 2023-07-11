@@ -6,9 +6,16 @@
     margin: 0;
     padding: 0;
 }
+
 :root {
     --title-font: 'Ubuntu';
     --text-font: 'Lato';
+    --title-color: white;
+    --brand-color: rgb(242, 185, 80);
+    --subtitle-color: rgb(180, 180, 180);
+    --text-color: rgb(165, 165, 165);
+    --button-text-color: white;
+    background-color: black;
 }
 
 a {
