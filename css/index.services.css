@@ -1,13 +1,13 @@
-/* body {
+.service-wrapper {
     text-align: center;
     margin: 20px;
 }
 
-h1 {
+.service-title {
     margin-bottom: 10px;
 }
 
-p {
+.service-description {
     margin-bottom: 20px;
 }
 
@@ -19,12 +19,7 @@ p {
 
 .image-container img {
     width: 60%;
-
     margin: 0 70px;
-}
-
-h2 {
-    margin: 10px 0;
 }
 
 .service-container {
@@ -33,7 +28,10 @@ h2 {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+}
 
+.service-heading {
+    margin: 10px 0;
 }
 
 .service-container ul {
@@ -44,7 +42,3 @@ h2 {
 .service-container li {
     margin-bottom: 5px;
 }
-
-.wrapper{
-
-} */
