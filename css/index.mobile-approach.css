@@ -1,0 +1,29 @@
+.mobile-first-approach__title {
+    color: var(--title-color);
+    font-family: var(--title-font);
+}
+
+.mobile-first-approach__subtitle {
+    color: var(--subtitle-color);
+    font-family: var(--text-font);
+}
+
+.mobile-first-approach__info {
+    color: var(--text-color);
+    font-family: var(--text-font);
+}
+
+.article_name {
+    color: var(--title-color);
+    font-family: var(--text-font);
+}
+
+.article__name-analytics {
+    color: var(--title-color);
+    font-family: var(--text-font);
+}
+
+.article__info {
+    color: var(--text-color);
+    font-family: var(--text-font);
+}
