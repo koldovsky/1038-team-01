@@ -1,0 +1,26 @@
+.workprocesscenter {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.workprocess-column {
+    width: 50%;
+}
+
+.workprocess-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.workprocess-description {
+    font-size: 16px;
+}
+
+.workprocess {
+    text-align: center;
+    margin-bottom: 20px;
+}
