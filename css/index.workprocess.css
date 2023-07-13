@@ -1,4 +1,10 @@
-.workprocesscenter {
+.workprocess {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 0;
+    background-color: #1d1d24;
+    color: #fff;
     text-align: center;
 }
 
@@ -9,18 +15,24 @@
 
 .workprocess-column {
     width: 50%;
+    background-color: #444;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    border: 1px solid #777;
+    border-radius: 10px;
 }
 
 .workprocess-heading {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
+    color: #ff9900;
 }
 
 .workprocess-description {
-    font-size: 16px;
+    font-size: 18px;
 }
 
-.workprocess {
-    text-align: center;
-    margin-bottom: 20px;
+.workprocess-spacer {
+    height: 20px;
 }
