@@ -44,3 +44,25 @@
     margin-bottom: 5px;
 }
 
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.arrow-left {
+    transform: rotate(-45deg);
+}
+
+.arrow-right {
+    transform: rotate(135deg);
+}
+
