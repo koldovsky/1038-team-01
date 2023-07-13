@@ -6,10 +6,12 @@
 
 .service-title {
     margin-bottom: 10px;
+    color: white;
 }
 
 .service-description {
     margin-bottom: 20px;
+    color : #b8b8b8 ;
 }
 
 .image-container {
@@ -33,6 +35,7 @@
 
 .service-heading {
     margin: 10px 0;
+    color: white;
 }
 
 .service-container ul {
@@ -42,6 +45,7 @@
 
 .service-container li {
     margin-bottom: 5px;
+    color : #b8b8b8 ;
 }
 
 .arrow-container {
@@ -64,5 +68,9 @@
 
 .arrow-right {
     transform: rotate(135deg);
+}
+
+.service-main-wrapper{
+ background-color: #23232b;
 }
 
