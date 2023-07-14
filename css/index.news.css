@@ -84,14 +84,12 @@
   
   .articles__image {
     border-radius: 10%;
-    margin: auto;
-    min-height: 182px;
     margin-top: 20px;
   }
   
   .articles__image-cropped {
     object-fit: cover;
-    object-position: 50% 13.314%;
+    object-position: 40% 40%;
   }
   
   .articles__button-container {
