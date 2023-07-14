@@ -1,0 +1,29 @@
+.events {
+    background-color: #23232b;
+}
+.events__title {
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-size: 2.125rem;
+}
+
+.events__description {
+    color: var(--subtitle-color);
+    font-family: var(--text-font);
+}
+
+.events__event {
+    background-color: #1d1d24;
+}
+
+@media (min-width: 768px) {
+    .events__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+
+
+
