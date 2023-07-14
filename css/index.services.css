@@ -1,14 +1,17 @@
-body {
+
+.service-wrapper {
     text-align: center;
     margin: 20px;
 }
 
-h1 {
+.service-title {
     margin-bottom: 10px;
+    color: white;
 }
 
-p {
+.service-description {
     margin-bottom: 20px;
+    color : #b8b8b8 ;
 }
 
 .image-container {
@@ -19,12 +22,7 @@ p {
 
 .image-container img {
     width: 60%;
-
     margin: 0 70px;
-}
-
-h2 {
-    margin: 10px 0;
 }
 
 .service-container {
@@ -33,7 +31,11 @@ h2 {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+}
 
+.service-heading {
+    margin: 10px 0;
+    color: white;
 }
 
 .service-container ul {
@@ -43,8 +45,32 @@ h2 {
 
 .service-container li {
     margin-bottom: 5px;
+    color : #b8b8b8 ;
 }
 
-.wrapper{
-
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.arrow-left {
+    transform: rotate(-45deg);
+}
+
+.arrow-right {
+    transform: rotate(135deg);
+}
+
+.service-main-wrapper{
+ background-color: #23232b;
+}
+
