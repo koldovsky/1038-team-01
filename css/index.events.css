@@ -2,6 +2,7 @@
     background-color: #23232b;
     padding: 90px 15px;
 }
+
 .events__title {
     color: var(--title-color);
     font-family: var(--title-font);
@@ -49,6 +50,3 @@
         grid-template-columns: 1fr 1fr;
     }
 }
-
-
-
