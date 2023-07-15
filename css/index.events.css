@@ -32,6 +32,13 @@
     font-size: 11px;
 }
 
+.events__title-container {
+    background: url(../img/index/events/events-title-shadow.svg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
 .events__event-information {
     padding: 31px 27px;
     font-family: var(--text-font); 
