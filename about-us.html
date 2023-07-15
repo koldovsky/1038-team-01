@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us Page | Web Design Agency</title>
     <link rel="shortcut icon" href="img/logo-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/about-us.css">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <!--Velchev Oleksiy start-->
+        <section data-include="partials/header-nav.partials.html"></section>
+        <!--Velchev Oleksiy end-->
         <!--Verbitskyi Denys start-->
         <section data-include="partials/about-us.header.partial.html"></section>
         <!--Verbitskyi Denys end-->
     </header>
 
-    <main>
+    <main class="container-max-width">
         <!--Verbitskyi Denys start-->
         <section data-include="partials/about-us.who-we-are.partial.html"></section>
         <!--Verbitskyi Denys end-->
@@ -27,7 +31,7 @@
         <!--Budko Anastasiya end-->
 
         <!--Batkivska Kateryna start-->
-        <section data-include="partials/about-us.our-mission.parial.html"></section>
+        <section data-include="partials/about-us.our-mission.partial.html"></section>
         <!-- Batkivska Kateryna end-->
     </main>
        
@@ -36,5 +40,6 @@
    <!-- Batkivska Kateryna end-->>
    
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script src="script/about-us.who-we-are.js"></script>
 </body>
 </html>

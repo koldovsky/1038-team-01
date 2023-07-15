@@ -1,0 +1,110 @@
+.item__image {
+    height: 50px;
+    width: 50px;
+}
+
+.about-us-who-we-are__info-block {
+    background: url(../img/about-us/who-we-are/bg-info-block.png);
+    background-position: 41.15% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+
+.description__header {
+    font-family: var(--title-font);
+    color: var(--title-color);
+    font-size: 2.125em;
+}
+
+.description__header-subtitle {
+    font-family: var(--text-font);
+    color: var(--subtitle-color);
+    font-size: 1.1875em;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.description__text-block {
+    font-family: var(--text-font);
+    color: var(--subtitle-color);
+    font-size: 1.0625em;
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 1.6256em;
+}
+
+.info-block__image-container {
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-us-who-we-are {
+    background: url("../img/about-us/who-we-are/who-we-are-768.png");
+    background-position: 41.15% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-us-who-we-are__accordion {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-start: auto;
+    padding-top: 30px;
+    padding-bottom: 130px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.accordion__item-container {
+    padding: 27px;
+}
+
+.accordion__item {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgb(35, 35, 43);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.accordion__item-row-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.item__header {
+    font-family: var(--text-font);
+    font-size: 1.125em;
+    color: var(--title-color);
+    font-weight: 400;
+}
+
+.item__content {
+    font-family: var(--text-font);
+    font-size: 1.0625em;
+    color: var(--text-color);
+    margin-top: 25px;
+    font-weight: 400;
+    display: none;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .about-us-who-we-are__accordion {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-us-who-we-are__accordion {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
