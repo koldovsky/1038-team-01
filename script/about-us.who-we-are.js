@@ -8,7 +8,8 @@ for (i = 0; i < acc.length; i++) {
     this.classList.toggle("active");
 
     /* Toggle between hiding and showing the active panel */
-    var panel = this.getElementsByClassName("item__content");
+    var parentContainer = this.closest(".accordion__item");
+    var panel = parentContainer.querySelector(".item__content");
     if (panel.style.display === "block") {
       panel.style.display = "none";
     } else {
