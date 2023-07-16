@@ -1,0 +1,53 @@
+. brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brands__title__container {
+    background-color: rgb(130, 28, 92);
+    text-align: center;
+    line-height: 1.53;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.brands__title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 58px;
+    font-family: var(--title-font);
+    line-height: 1.09;
+    width: 100%;
+    padding: 0,24;
+    margin: 0, auto;
+    max-width: 1200px;
+    vertical-align: baseline;
+}
+
+.brands__subtitle {
+    color: rgba(255, 255, 255, 0.77);
+    font-family: var(--text-font);
+    font-size: 19px;
+    width: 100%;
+    padding: 0,24;
+    margin: 0, auto;
+    vertical-align: baseline;
+    margin-top: 25px;
+}
+
+brands__carousel {
+    background-color: var(--block-bg-color);
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.brands__carousel-track-container {
+    width: 100%;
+    padding: 0,24;
+    margin: 0, auto;
+    max-width: 1200px;
+}
