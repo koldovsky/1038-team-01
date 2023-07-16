@@ -1,3 +1,115 @@
 .hiring {
     background: url(../img/about-us/hiring/hiring-bg.png);
 }
+
+.hiring__information {
+    padding: 90px 0px 40px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.hiring__info-container {
+    padding: 0px 30px;
+
+}
+
+.hiring__title {
+    font-family: var(--title-font);
+    color: var(--title-color);
+    font-size: 48px;
+}
+
+.hiring__intro {
+    font-family: var(--text-font);
+    color: var(--subtitle-color);
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.hiring__team-description,
+.hiring__description {
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.hiring__subtitle-description {
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+.hiring__vision-description {
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-size: 17px;
+}
+
+.hiring__underline {
+    width: 10%;
+    height: 3px;
+    background-color: var(--brand-color);
+    margin: 15px 0px;
+}
+
+.hiring__list {
+    font-family: var(--text-font);
+    font-size: 17px;
+}
+
+.hiring__subtitle {
+    font-size: 21px;
+    color: var(--title-color);
+    font-family: var(--text-font);
+}
+
+.hiring__list-circle {
+    width: 9px;
+}
+
+.hiring__list-item-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 16px;
+}
+
+.hiring__list-item {
+    color: var(--text-color);
+    font-family: var(--text-font);
+    
+}
+
+.hiring__last-list-item-container {
+    margin-bottom: 0px;
+}
+
+.hiring__send-cv-button {
+    color: var(--button-text-color);
+    font-size: 15px;
+    font-family: var(--text-font);
+}
+
+.hiring__button-container {
+    display: inline-block;
+    padding: 20px 35px;
+    border-radius: 28.5px;
+    background: linear-gradient(90deg, #db5d5e, #f1b351);
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .hiring__information {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .hiring__info-container {
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+}
+
