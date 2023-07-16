@@ -42,7 +42,6 @@
 
 .positions__list-circle {
     width: 9px;
-    height: 9px;
 }
 
 .positions__job-title {
@@ -52,6 +51,7 @@
 }
 
 .positions__job-category {
+    margin-top: 20px;
     color: var(--text-color);
     font-size: 14px;
 }
@@ -59,11 +59,54 @@
 .positions__job-requirements {
     color: var(--text-color);
     font-size: 17px;
+    margin-top: 50px;
 }
 
 .positions__requirement-container {
     display: flex;
+    align-items: center;
     gap: 15px;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    margin-bottom: 16px;
 }
 
+.positions__last-requirment {
+    margin-bottom: 0px;
+    ;
+}
 
+.positions__job-salary {
+    margin-top: 50px;
+    ;
+    font-size: 34px;
+    font-family: var(--title-font);
+    color: var(--title-color);
+}
+
+.positions__job-currency {
+    font-size: 20px;
+    color: var(--brand-color);
+}
+
+.positions__job-dot {
+    color: var(--brand-color);
+}
+
+.positions__job-link-container {
+    display: inline-block;
+    padding: 20px 35px;
+    border-radius: 28.5px;
+    background: linear-gradient(90deg, #db5d5e, #f1b351);
+    margin-top: 50px;
+    ;
+}
+
+.positions__job-link-container:hover {
+    background: linear-gradient(90deg, #f1b351, #db5d5e);
+}
+
+.positions__job-link {
+    color: var(--button-text-color);
+    font-size: 15px;
+}
