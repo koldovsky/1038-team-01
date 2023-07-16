@@ -19,6 +19,13 @@
     font-size: 34px;
 }
 
+.hiring__title-container {
+    background: url(../img/about-us/hiring/title-shadow.svg);
+    background-position: 40% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
 .hiring__intro {
     font-family: var(--text-font);
     color: var(--subtitle-color);
@@ -103,12 +110,17 @@
     margin-top: 40px;
 }
 
+.hiring__button-container:hover {
+    background: linear-gradient(90deg, #f1b351, #db5d5e);
+}
+
 .hiring__cards{
     padding: 40px 0px 60px;
     display: flex;
     flex-direction: column;
     margin: auto;
     max-width: 1200px;
+    gap: 24px;
 }
 
 .hiring__features {
@@ -167,6 +179,7 @@
 
     .hiring__cards {
         flex-direction: row;
+        gap: 0px;
     }
 
     .hiring__image-container {
