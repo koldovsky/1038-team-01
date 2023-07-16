@@ -10,13 +10,13 @@
 
 .hiring__info-container {
     padding: 0px 30px;
-
+    margin-top: 60px;
 }
 
 .hiring__title {
     font-family: var(--title-font);
     color: var(--title-color);
-    font-size: 48px;
+    font-size: 34px;
 }
 
 .hiring__intro {
@@ -60,7 +60,7 @@
 }
 
 .hiring__subtitle {
-    font-size: 21px;
+    font-size: 18px;
     color: var(--title-color);
     font-family: var(--text-font);
 }
@@ -69,9 +69,12 @@
     width: 9px;
 }
 
+.hiring__circle-container {
+    padding-top: 7px;
+}
+
 .hiring__list-item-container {
     display: flex;
-    align-items: flex-start;
     gap: 15px;
     margin-bottom: 16px;
 }
@@ -100,16 +103,79 @@
     margin-top: 40px;
 }
 
+.hiring__cards{
+    padding: 40px 0px 60px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.hiring__features {
+    background-color: var(--block-bg-color);
+    padding: 31px 25px;
+    border-radius: 10%;
+    margin: 0px 12.5px;
+}
+
+.hiring__image-container {
+    background-color: var(--image-bg-color);
+    width: 50px;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.hiring__card-title {
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.hiring__card-description {
+    color: var(--text-color);
+    font-family: var(--title-font);
+    font-size: 17px;
+}
+
+.hiring__card-line {
+    height: 3px;
+    width: 15%;
+    background-color: rgb(170, 32, 57);
+    margin: 15px 0px;
+}
+
 @media (min-width: 768px) {
     .hiring__information {
         display: flex;
         flex-direction: row;
-        flex: 1;
     }
 
     .hiring__info-container {
         flex-basis: 0;
         flex-grow: 1;
+    }
+
+    .hiring__title {
+        font-size: 48px;
+    }
+
+    .hiring__subtitle {
+        font-size: 21px;
+    }
+
+    .hiring__cards {
+        flex-direction: row;
+    }
+
+    .hiring__image-container {
+        width: 70px;
+        padding: 15px;
+    }
+
+    .hiring__features {
+        padding: 40px 25px;
     }
 }
 
