@@ -6,10 +6,12 @@
 
 .service-title {
     margin-bottom: 10px;
+    color: white;
 }
 
 .service-description {
     margin-bottom: 20px;
+    color : #b8b8b8 ;
 }
 
 .image-container {
@@ -33,6 +35,7 @@
 
 .service-heading {
     margin: 10px 0;
+    color: white;
 }
 
 .service-container ul {
@@ -42,5 +45,32 @@
 
 .service-container li {
     margin-bottom: 5px;
+    color : #b8b8b8 ;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.arrow-left {
+    transform: rotate(-45deg);
+}
+
+.arrow-right {
+    transform: rotate(135deg);
+}
+
+.service-main-wrapper{
+ background-color: #23232b;
 }
 

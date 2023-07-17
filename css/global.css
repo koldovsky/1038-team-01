@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('/css2?family=Lato&family=Ubuntu&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-*/
 
 /* {
     box-sizing: border-box;
@@ -17,13 +14,15 @@
     --brand-color: rgb(242, 185, 80);
     --subtitle-color: rgb(180, 180, 180);
     --text-color: rgb(165, 165, 165);
+    --block-bg-color: rgb(29, 29, 36);
+    --image-bg-color: rgb(35, 35, 43);
     --button-text-color: white;
     /* background-color: black; 
 }
 
-body {
-    max-width: 1024px;
-    margin 
+.container-max-width {
+    max-width: 1200px;
+    margin: auto;   
 }
 
 a {

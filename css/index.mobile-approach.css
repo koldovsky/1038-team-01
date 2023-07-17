@@ -1,29 +1,67 @@
+.mobile-first-approach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/index/mobilefirst/background-section-mobile-approach.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 10px 65px 80px;
+
+}
+
+@media (min-width: 640px) {
+.mobile-first-approach__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
 .mobile-first-approach__title {
     color: var(--title-color);
     font-family: var(--title-font);
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px;
 }
 
 .mobile-first-approach__subtitle {
     color: var(--subtitle-color);
     font-family: var(--text-font);
+    font-size: 1.1rem;
+    padding-bottom: 10px;
 }
 
 .mobile-first-approach__info {
     color: var(--text-color);
     font-family: var(--text-font);
+    font-size: 1rem;
 }
 
 .article_name {
     color: var(--title-color);
     font-family: var(--text-font);
+    font-size: 1.3rem;
 }
 
 .article__name-analytics {
     color: var(--title-color);
     font-family: var(--text-font);
+    font-size: 1.3rem;
 }
 
 .article__info {
     color: var(--text-color);
     font-family: var(--text-font);
+    font-size: 1.1rem;
 }
+
+.article__image {
+    width: 20.77px;
+}
+
+.iphone-screenshot {
+    width: 272px;
+}
+
