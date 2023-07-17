@@ -1,0 +1,43 @@
+.call-to-action {
+    background-image: url(/img/about-us/call-to-action/call-to-action__background.png);
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    padding: 100px;
+}
+.call-to-action > div{
+    text-align: center;
+    margin: 80px;
+}
+.сall-to-action__button-cantacts-conteiner{
+    margin: 100px;
+    padding: 100px;
+}
+.about-us__call-to-action-link-email{
+  color: rgb(242, 185, 80);
+}
+
+.сall-to-action__button-cantacts{
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    background: linear-gradient(to right, rgb(255, 157, 0), rgb(235, 208, 7));
+    padding-bottom: 21px;
+    padding-top: 21px;
+    padding-left: 34px;
+    padding-right: 34px;
+    border-top-left-radius: 28.5px;
+    border-top-right-radius: 28.5px;
+    border-bottom-left-radius: 28.5px;
+    border-bottom-right-radius: 28.5px;
+    margin-top: 200px;
+}
+.сall-to-action__button-cantacts:hover{
+    background: linear-gradient(to right, rgb(235, 208, 7), rgb(255, 157, 0));
+}
+.сall-to-action__text{
+    text-align: center;
+    margin: 15px;
+    color: #B4B4B4; 
+}
+
+

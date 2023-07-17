@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 */
 
-* {
+/* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@
     --subtitle-color: rgb(180, 180, 180);
     --text-color: rgb(165, 165, 165);
     --button-text-color: white;
-    /* background-color: black; */
+    /* background-color: black; 
 }
 
 body {
@@ -33,4 +33,4 @@ a {
 img {
     display: block;
     width: 100%;
-}
+}*/

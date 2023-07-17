@@ -1,27 +1,38 @@
 
 .who-we-are{
     font-family: 'Lato', sans-serif;
+    margin: 30px;
 }
 
 .who-we-are__picture-text{
-    padding: 60 30px;
-    flex: 1;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .who-we-are__img-working-on-project{
-    flex: 1;
-    justify-content: space-around;
+    max-width: 50%;
+
 }
 
 .who-we-are__title{
+    margin: 15px;
     color: #ffffff;
 }
 .who-we-are__title-of-text{
+    margin: 15px;
     color: #B4B4B4;
 }
 .who-we-are__text{
+    margin: 15px;
     color: #A5A5A5;
 }
-.who-we-are__link-about-us{
+.who-we-are__all-text{
+    float: left;
+}
+.who-we-are__button-about-us{
     text-decoration: none;
     color: white;
     border: 1px;
@@ -35,22 +46,23 @@
     border-bottom-left-radius: 28.5px;
     border-bottom-right-radius: 28.5px;
 }
-.who-we-are__link-about-us:hover{
+.who-we-are__button-about-us:hover{
     background: linear-gradient(to right, rgb(235, 208, 7), rgb(255, 157, 0));
 }
-.who-we-are__link-about-us-container{
-    margin: 35px 35px;
+.who-we-are__button-about-us-container{
+    margin: 35px 20px;
 }
 .who-we-are__cards{
-    margin: 0 15px;
+    margin:  0 15px;
     display: flex;
     flex-direction: column;
 
 }
-.who-we-are__card-title{
-
+.who-we-are__card{
+    margin: 20px;
 }
 .who-we-are__line{
+    margin: 10px;
     height:3px;
     width:15%;
     background-color:#aa2039;
@@ -61,19 +73,26 @@
 .who-we-are__card-title-plus {
     color: #F2B950;
 }
-@media (min-width: 770px) {
-    .who-we-are__picture-text{
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  @media (min-width: 990px) {
+    .box {
+      width: 25%; 
+    }
+  }
+  @media (max-width: 770px) {
+    .container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
-    .who-we-are__cards{
-
-    }
-}
-@media (min-width: 990px) {
-    .who-we-are__cards{
-        display: flex;
-        flex-direction: row;
-    }
-}
+  }
 
