@@ -20,7 +20,7 @@
     --background-color: black; 
 }
 
-.container-max-width {
+.container {
     max-width: 1200px;
     margin: auto;   
 }
