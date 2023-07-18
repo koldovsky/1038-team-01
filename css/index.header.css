@@ -1,0 +1,20 @@
+.header {
+    background: url("../img/index/header/cover.png");
+    object-fit: cover;
+    object-position: 54% 42%;
+    background-repeat: no-repeat;
+}
+
+.darkTheme_3jZ {
+    border-radius:50%;
+    width: 30px;
+}
+
+.svg-path-fill {
+    fill: #f2b950;
+}
+
+.svg-path-fill-none {
+    fill: none;
+    color:rgba(29, 29, 36, 0);
+}
