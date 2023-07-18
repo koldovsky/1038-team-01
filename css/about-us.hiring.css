@@ -1,11 +1,13 @@
 .hiring {
     background: url(../img/about-us/hiring/hiring-bg.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hiring__information {
     padding: 90px 0px 40px;
     margin: auto;
-    max-width: 1200px;
 }
 
 .hiring__info-container {
