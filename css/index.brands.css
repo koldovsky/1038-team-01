@@ -67,14 +67,15 @@
 }
 
 .carousel {
+    width: 100%;
+    margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 
-.carousel-inner {
-    margin: auto;
-}
+
+
 .brands__carousel-item-image {
     background-color: var(--image-bg-color);
     border-bottom-left-radius: 10px;
@@ -87,3 +88,4 @@
     object-position: 50% 50%;
     height: 125.792px;
 }
+
