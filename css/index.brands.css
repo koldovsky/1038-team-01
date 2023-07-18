@@ -7,11 +7,14 @@
 .brands__title__container {
     background-color: rgb(130, 28, 92);
     text-align: center;
-    line-height: 1.53;
+    line-height: 26.01px;
     padding-top: 90px;
     padding-bottom: 90px;
-    display: flex;
-    flex-direction: column;
+    background-image: url(../img/index/brands/brands_bg.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .brands__title {
@@ -19,10 +22,9 @@
     font-weight: 600;
     font-size: 58px;
     font-family: var(--title-font);
-    line-height: 1.09;
-    width: 100%;
+    line-height: 63.22px;
+    width: auto;
     padding: 0 24px;
-    max-width: 1200px;
     vertical-align: baseline;
 }
 
