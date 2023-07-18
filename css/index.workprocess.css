@@ -3,21 +3,27 @@
     flex-direction: column;
     justify-content: center;
     padding: 90px 0;
-    background-color: #1d1d24;
-    color: #fff;
+    background: url("../img/workprocess/workProcess-background.png");
+    background-size: cover;
+    color: white;
     text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .workprocess-column {
-    width: 50%;
+    flex: 1 0 calc(33.33% - 20px);
     background-color: #444;
     padding: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
     color: #fff;
     border: 1px solid #777;
     border-radius: 10px;
@@ -30,9 +36,15 @@
 }
 
 .workprocess-description {
-    font-size: 18px;
+    color: #b8b8b8;
+    font-size: 20px;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
-.workprocess-spacer {
-    height: 20px;
+@media (max-width: 767px) {
+    .workprocess-column {
+        flex-basis: 100%;
+    }
 }
+
+
