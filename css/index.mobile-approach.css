@@ -3,9 +3,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/index/mobilefirst/background-section-mobile-approach.png);
+    
     background-size: cover;
     background-position: 100%;
+    position: relative;
+    height: 972px;
+    overflow: hidden;
+}
+
+.mobile-first-approach::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-image: url(/img/index/mobilefirst/background-section-mobile-approach.png);
+  background-size: cover;
+  background-position: center;
+  clip-path:inherit;
+  z-index: -1; 
 }
 
  @media (min-width: 992px) {
