@@ -7,11 +7,14 @@
 .brands__title__container {
     background-color: rgb(130, 28, 92);
     text-align: center;
-    line-height: 1.53;
+    line-height: 26.01px;
     padding-top: 90px;
     padding-bottom: 90px;
-    display: flex;
-    flex-direction: column;
+    background-image: url(../img/index/brands/brands_bg.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .brands__title {
@@ -19,10 +22,8 @@
     font-weight: 600;
     font-size: 58px;
     font-family: var(--title-font);
-    line-height: 1.09;
-    width: 100%;
+    line-height: 63.22px;
     padding: 0 24px;
-    max-width: 1200px;
     vertical-align: baseline;
 }
 
@@ -30,7 +31,6 @@
     color: rgba(255, 255, 255, 0.77);
     font-family: var(--text-font);
     font-size: 19px;
-    width: 100%;
     padding: 0 24px;
     vertical-align: baseline;
     margin-top: 25px;
@@ -38,18 +38,16 @@
 
 .brands__carousel {
     background-color: var(--block-bg-color);
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px; 
-    
     text-align: center;
+    width: auto;
 }
 
 .brands__carousel-item {
     box-sizing: content-box;
+    justify-content: center;
     padding-left: 15px;
     padding-right: 15px;
     height: 165.792px;
@@ -65,9 +63,18 @@
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 329px;
     text-align: center;
 }
+
+.carousel {
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
 
 .brands__carousel-item-image {
     background-color: var(--image-bg-color);
@@ -75,13 +82,10 @@
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-sizing: border-box;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    box-sizing: content-box;
+    margin: auto;
     object-fit: contain;
     object-position: 50% 50%;
     height: 125.792px;
-    width: 289px;
 }
+
