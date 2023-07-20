@@ -73,7 +73,7 @@
     line-height: 1.63em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .workprocess-column {
         flex-basis: 26%;
         margin-right: 17px;
