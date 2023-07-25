@@ -1,20 +1,27 @@
 .service-wrapper {
-    text-align: center;
-    margin: 20px;
+    background: url("../img/services/title-background.svg");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .service-title {
-    margin-bottom: 10px;
-    color: white;
-    font-size: 40px;
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: var(--title-font);
+    font-size: 2.125rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--title-color);
+
 }
 
 .service-description {
-    margin-bottom: 20px;
-    color: #b8b8b8;
-    font-size: 20px;
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: var(--text-font);
+    font-size: 1.1875em;
+    font-weight: 700;
+    line-height: 1.745625em;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--subtitle-color);
 }
 
 .image-container {
@@ -29,6 +36,8 @@
     height: auto;
     margin: 10px;
     border-radius: 20px;
+    height: 300px;
+
 }
 
 .service-container {
@@ -42,12 +51,10 @@
 }
 
 .service-heading {
-    margin: 10px 0;
-    color: white;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-family: "Roboto", Arial, sans-serif;
+    color: var(--title-color);
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.54em;
 }
 
 .service-container ul {
@@ -107,7 +114,15 @@
 }
 
 .service-main-wrapper {
-    background-color: #23232b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 0;
+    background: url("../img/services/services-background.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -123,11 +138,17 @@
         flex-basis: calc(50% - 40px);
         margin-right: 20px;
     }
+    .service-title{
+        font-size: 2.5625rem;
+    }
 }
 
 @media (min-width: 992px) {
     .service-container {
         flex-basis: calc(33.33% - 40px);
         margin-right: 20px;
+    }
+    .service-title{
+        font-size: 3rem;
     }
 }

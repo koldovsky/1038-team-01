@@ -1,10 +1,24 @@
 .header {
-    background: url("../img/index/header/cover.png");
-    object-fit: cover;
-    object-position: 54% 42%;
+    background: url("../img/index/header/cover-1200.png");
+    background-position: 54% 42%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
     width: 100%;
+}
+
+.header__content {
+    margin: auto;
+}
+
+.header__nav {
+    margin: auto;
+    overflow: hidden;
+}
+
+.header__content-container {
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .darkTheme_3jZ {
