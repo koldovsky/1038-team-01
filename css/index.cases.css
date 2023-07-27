@@ -11,25 +11,42 @@
     margin-bottom: 20px;
 }
 
-
 .cases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 0;
     text-align: center;
-    margin: 20px;
+    background: url("../img/cases/cases-background.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cases__title-container{
+    background: url(../img/cases/cases_title-background.svg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .cases__title {
     font-family: var(--title-font);
-    color: black;
     font-size: 2.125rem;
-    font-weight: 700;
+    font-weight: 500;
+    text-align: center;
+    color: var(--title-color);
 }
 
 .cases__description {
-    font-family: var(--title-font);
-    color: black;
-    font-weight: 600;
-    margin-top: 25px;
-    font-size: 1.2rem;
+    font-family: var(--text-font);
+    font-size: 1.1875em;
+    font-weight: 700;
+    line-height: 1.745625em;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--subtitle-color);
 }
 
 
@@ -139,5 +156,9 @@
     .case__description{
         padding-left: 100px;
         padding-top: 10px;
+    }
+
+    .cases__title {
+        font-size: 3rem;
     }
 }
