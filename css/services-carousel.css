@@ -1,0 +1,65 @@
+.services-animated_carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.services-animated_carousel .service-container {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .services-animated_carousel .service-container {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .services-animated_carousel .service-container {
+        flex: 0 0 33.33%;
+    }
+}
+
+.services-animated_carousel .carousel_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.services-animated_carousel .carousel_button:hover {
+    background-color: #909298; /* Замените цвет на свой выбор для состояния наведения */
+
+}
+
+.services-animated_carousel .carousel_button--prev {
+    left: 10px;
+
+}
+
+.services-animated_carousel .carousel_button--next {
+    right: 10px;
+
+}
+
+
+
+
+
