@@ -1,6 +1,9 @@
 .events {
     background: url(../img/index/events/background-image.png);
     padding: 90px 15px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .events__title {

@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+<<<<<<< HEAD
  {
+=======
+* {
+>>>>>>> c5114e95665d7e53d93081a04c8760f713d30f60
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -17,10 +21,10 @@
     --block-bg-color: rgb(29, 29, 36);
     --image-bg-color: rgb(35, 35, 43);
     --button-text-color: white;
-    /* background-color: black; 
+    --background-color: black; 
 }
 
-.container-max-width {
+.container {
     max-width: 1200px;
     margin: auto;   
 }

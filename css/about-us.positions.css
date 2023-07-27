@@ -1,10 +1,17 @@
 .positions {
     background: url(../img/about-us/positions/open-positions-bg.png);
     padding: 65px 24px 90px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .positions__title-container {
     padding: 0px 15px;
+    background: url(../img/about-us/positions/positions-title-shadow.svg);
+    background-position: 40% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .positions__title {
@@ -73,12 +80,10 @@
 
 .positions__last-requirment {
     margin-bottom: 0px;
-    ;
 }
 
 .positions__job-salary {
     margin-top: 50px;
-    ;
     font-size: 34px;
     font-family: var(--title-font);
     color: var(--title-color);
@@ -99,7 +104,6 @@
     border-radius: 28.5px;
     background: linear-gradient(90deg, #db5d5e, #f1b351);
     margin-top: 50px;
-    ;
 }
 
 .positions__job-link-container:hover {
@@ -109,4 +113,48 @@
 .positions__job-link {
     color: var(--button-text-color);
     font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    .positions__job {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+    }
+
+    .positions__job-link-container {
+        margin-top: 0px;
+        margin-left: 15px;
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+
+    .positions__job-requirements,
+    .positions__job-salary {
+        margin-top: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+
+    .positions__job-dot,
+    .positions__job-salary {
+        font-size: 48px;
+    }
+
+    .positions__job {
+        margin-top: 30px;
+    }
+
+    .positions__title {
+        font-size: 48px;
+    }
+
+    .positions__name-container {
+        width: 32%;
+    }
+
 }
