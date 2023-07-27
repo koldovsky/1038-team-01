@@ -1,10 +1,10 @@
 const brands = [
-    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="../img/index/brands/vue.svg" alt="VUE"></div>',
-    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="../img/index/brands/blink.svg" alt="Blink"></div>',
-    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="../img/index/brands/nike.svg" alt="Nike"></div>',
-    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="../img/index/brands/the-cw.svg" alt="The CW"></div>',
-    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="../img/index/brands/adidas.svg" alt="Adidas"></div>',
-    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="../img/index/brands/caractere.svg" alt="Caractere"></div>',
+    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="img/index/brands/vue.svg" alt="VUE"></div>',
+    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="img/index/brands/blink.svg" alt="Blink"></div>',
+    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="img/index/brands/nike.svg" alt="Nike"></div>',
+    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="img/index/brands/the-cw.svg" alt="The CW"></div>',
+    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="img/index/brands/adidas.svg" alt="Adidas"></div>',
+    '<div class="brands__carousel-item"><img class="brands__carousel-item-image" src="img/index/brands/caractere.svg" alt="Caractere"></div>',
 ];
 
 
