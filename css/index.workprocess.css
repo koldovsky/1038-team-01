@@ -32,6 +32,19 @@
     margin-right: 15px;
 }
 
+.workprocess-articles{
+    font-family: var(--text-font);
+    color: var(--brand-color);
+    font-size: 0.6875em;
+    font-weight: 700;
+    letter-spacing: 0.1375em;
+    line-height: 0.9625em;
+}
+
+.workprocess__articles-container{
+    margin-top: 20px;
+}
+
 .workprocess__title-container{
     background: url(../img/workprocess/OurWorkProcess.svg);
     background-position: 50% 50%;
@@ -94,7 +107,7 @@
 @media (min-width: 992px) {
     .workprocess-column {
         flex-basis: 30%;
-        margin-right: 35px;
+        margin-right: 30px;
         padding: 15px;
         margin-top: 10px;
         margin-bottom: 20px;
