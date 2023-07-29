@@ -1,10 +1,13 @@
 .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 0;
     background: url("../img/index/header/cover-1200.png");
-    background-position: 54% 42%;
+    background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
-    width: 100%;
+
 }
 
 .header__content {
