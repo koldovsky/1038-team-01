@@ -17,12 +17,12 @@
     --block-bg-color: rgb(29, 29, 36);
     --image-bg-color: rgb(35, 35, 43);
     --button-text-color: white;
-    --background-color: black; 
+    --background-color: black;
 }
 
 .container {
     max-width: 1200px;
-    margin: auto;   
+    margin: auto;
 }
 
 a {
