@@ -1,0 +1,63 @@
+.awards {
+    background: url(../img/workprocess/workProcess-background.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.award__icon-image {
+    width: 60px;
+    height: 60px;
+}
+
+.awards__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.award__icon {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.awards__title, .awards__description {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+
+.awards__title {
+    color: #fff;
+    font-size: 41px;
+}
+
+.awards__description {
+    color:#b4b4b4;
+    font-size: 19px;
+    margin: 40px 0px 40px 0px;
+}
+
+.award__caption {
+    color: #a5a5a5;
+    font-size: 17px;
+    font-family: , sans-serif;
+    padding: 15px;
+ }
+
+ .background-block {
+    background: rgb(35, 35, 43);
+    margin: 40px;
+    height: 240px;
+    width: 240px;
+    border-radius: 10%;
+    
+ }
+
+ .award__icon-image {
+    margin: auto;
+ }
+
+
+
