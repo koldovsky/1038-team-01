@@ -1,14 +1,21 @@
-var acc = document.getElementsByClassName("item__button");
-var i;
+const buttons = document.querySelectorAll('.accordion__item-button');
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        const container = button.closest('.accordion__item-row-container');
+        const content = container.querySelector('.accordion__item-content');
+        if (button.classList.contains('open')) {
+            button.classList.remove('open');
+            button.classList.toggle('close');
+            content.classList.remove('opencontent');
+        } else if (button.classList.contains('close')) {
+            button.classList.remove('close');
+            button.classList.toggle('open');
+            content.classList.toggle('opencontent');
         } else {
-            panel.style.display = "block";
+            button.classList.toggle('open');
+            content.classList.toggle('opencontent');
         }
-    });
-}
+
+    })
+});
