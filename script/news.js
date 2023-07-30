@@ -3,10 +3,10 @@ const articles = await response.json();
 
 renderArticles(articles);
 
-function renderArticles (articles) {
+function renderArticles(articles) {
     const articlesContainer = document.querySelector('.news__articles');
     articlesContainer.innerHTML = '';
-    for(const article of articles) {
+    for (const article of articles) {
         articlesContainer.innerHTML += `<article class="articles__item">
         <img class="articles__image" src="${article.image}" alt="${article.alt}">
         <p class="articles__date-container">
@@ -22,3 +22,5 @@ function renderArticles (articles) {
     </article>`
     };
 };
+
+
