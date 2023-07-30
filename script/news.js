@@ -1,4 +1,4 @@
-const response = await fetch("../api/index.news.json");
+const response = await fetch("api/index.news.json");
 const articles = await response.json();
 
 renderArticles(articles);
