@@ -14,7 +14,7 @@ function getSlidesPerView() {
 }
 
 function setupCarousel() {
-    slides = slides.filter(!slide => slide.classList.contains('clone'));
+    slides = slides.filter(slide => !slide.classList.contains('clone'));
 
     const clonesStart = slides.slice(-slidesPerView).map(cloneSlide);
     const clonesEnd = slides.slice(0, slidesPerView).map(cloneSlide);
