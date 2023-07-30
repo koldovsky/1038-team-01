@@ -1,5 +1,6 @@
 @import url(global.css);
 @import url(index.services.css);
+@import url(services-carousel.css);
 @import url(index.news.css);
 @import url(index.events.css);
 @import url(index.who-we-are.css);
@@ -8,3 +9,4 @@
 @import url(index.brands.css);
 @import url(index.header.css);
 @import url(index.cases.css);
+@import url(index.strengths.css);
