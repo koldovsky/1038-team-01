@@ -116,10 +116,29 @@
     background: linear-gradient(90deg, #f1b351, #db5d5e);
 }
 
-.hiring__cards{
-    padding: 40px 0px 60px;
+/*.hiring__cards {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}*/
+
+/*.hiring__cards-inner {
     display: flex;
-    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+}
+
+.hiring__cards .hiring__features {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;*/
+}
+/*.hiring__cards{
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    padding: 40px 0px 60px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
     margin: auto;
     max-width: 1200px;
     gap: 24px;
@@ -127,10 +146,11 @@
 
 .hiring__features {
     background-color: var(--block-bg-color);
+    transition: transform 0.5s ease-in-out;
     padding: 31px 25px;
     border-radius: 10%;
     margin: 0px 12.5px;
-}
+}*/
 
 .hiring__image-container {
     background-color: var(--image-bg-color);
@@ -179,18 +199,85 @@
         font-size: 21px;
     }
 
-    .hiring__cards {
-        flex-direction: row;
+    /*.hiring__cards .hiring__features {
+        flex: 0 0 33.33%;
+    }*/
+   /* .hiring__cards {
+        flex: 0 0 33.33%;
         gap: 0px;
-    }
+    }*/
 
     .hiring__image-container {
         width: 70px;
         padding: 15px;
     }
 
-    .hiring__features {
+    /*.hiring__features {
+        padding: 40px 25px;
+    }*/
+}
+/*
+.carousel__button .hiring__cards {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+} */
+
+.animated-carousel {
+    padding: 40px 0px 60px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.animated-carousel__inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.product-card {
+    background-color: var(--block-bg-color);
+    padding: 31px 25px;
+    border-radius: 10%;
+    margin: 0px 12.5px;
+}
+
+.animated-carousel .product-card {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .animated-carousel .product-card {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .animated-carousel .product-card {
+        flex: 0 0 33.33%;
+    }
+    .product-card {
         padding: 40px 25px;
     }
 }
 
+.animated-carousel .carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.animated-carousel .carousel__button--prev {
+    left: 10px;
+}
+
+.animated-carousel .carousel__button--next {
+    right: 10px;
+}
