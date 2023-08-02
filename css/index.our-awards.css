@@ -4,6 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    
 }
 
 
@@ -14,7 +17,8 @@
 
 .awards__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .award__icon {
@@ -58,6 +62,29 @@
  .award__icon-image {
     margin: auto;
  }
+
+ 
+
+ @media (max-width: 823px) {
+    .awards__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+     }
+ }
+
+
+ @media (max-width: 655px) {
+    .awards__list {
+        display: flex;
+        flex-direction: column;
+        
+     }
+ }
+
+ 
+    
+ 
 
 
 
