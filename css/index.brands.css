@@ -3,10 +3,6 @@
     flex-direction: column;
     justify-content: center;
 }
-  
-.brands__content {
-    margin: 0 20px;
-}
 
 .brands__title__container {
     background-color: rgb(130, 28, 92);
@@ -44,54 +40,105 @@
     background-color: var(--block-bg-color);
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px; 
     text-align: center;
 }
 
+.brands__carous-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .brands__carousel-inner {
     display: flex;
     flex-direction: row; 
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .brands__carousel-item {
     align-items: center;
     justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    height: 165.792px;
-    width: 359px;
-    
+    height: 102px;
+    width: auto;
     text-align: center;
 }
 
-
-
-
-.brands__carousel-item-image {
+.brands__carousel-item-image-container {
+    padding-right: 16px;
+    padding-left: 16px;
     background-color: var(--image-bg-color);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-sizing: content-box;
+}
+
+.brands__carousel-item-image {
+    
+    box-sizing: border-box;
     margin: auto;
     object-fit: contain;
     object-position: 50% 50%;
-    height: 125.792px;
+    height: 72px;
 }
 
 
+.brands__buttons-container-next {
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 45px;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.brands__buttons-container-prev {
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 45px;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+@media (min-width: 320px) {
+    .brands__carousel-item {
+        width: 250px; 
+    }
+} 
+
+@media (min-width: 470px) {
+    .brands__carousel-item {
+        width: 400px; 
+    }
+} 
 
 @media (min-width: 768px) {
     .brands__carousel-item {
-        width: 180px; 
+        width: 238px; 
     }
 } 
 
 @media (min-width: 992px) {
     .brands__carousel-item {
-        width: 153px;
+        width: 188px;
     }
 } 
+
