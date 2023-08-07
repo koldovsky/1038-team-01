@@ -3,27 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    background-image: url(../img/index/mobilefirst/background-section-mobile-approach.png);
     background-size: cover;
-    background-position: 100%;
-    position: relative;
-    height: 972px;
-    overflow: hidden;
-}
-
-.mobile-first-approach::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  background-image: url(/img/index/mobilefirst/background-section-mobile-approach.png);
-  background-size: cover;
-  background-position: center;
-  clip-path:inherit;
-  z-index: -1; 
-}
+    background-position: center;
+    --mask:
+       radial-gradient(183.36px at 50% 246.00px,#000 99%,#0000 101%) calc(50% - 164px) 0/328px 100%,
+       radial-gradient(183.36px at 50% -164px,#0000 99%,#000 101%) 50% 82px/328px 100% repeat-x;
+    -webkit-mask: var(--mask);
+       mask: var(--mask);
+  margin-top: -110px;
+  }
 
  @media (min-width: 992px) {
     .mobile-first-approach__container {
@@ -39,6 +28,7 @@
 .mobile-first-approach__infoblock {
    display: flex;
    flex-direction: column;
+   margin-top: 55px;
 }
 
 .mobile-first-approach__title {

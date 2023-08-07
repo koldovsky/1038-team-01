@@ -38,54 +38,135 @@
 
 .brands__carousel {
     background-color: var(--block-bg-color);
-    justify-content: center;
+    display: flex;
+    align-items: center;
     padding-top: 30px;
     padding-bottom: 30px; 
     text-align: center;
-    width: auto;
+}
+
+.brands__carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brands__carousel-inner {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .brands__carousel-item {
-    box-sizing: content-box;
+    align-items: center;
     justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    height: 165.792px;
-    width: 359px;
-    
+    height: 102px;
+    width: auto;
     text-align: center;
 }
 
-.brands__carousel-item-container { 
-    box-sizing: content-box;
-    height: 125.792px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.carousel {
-    width: 100%;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
-
-
-.brands__carousel-item-image {
+.brands__carousel-item-image-container {
+    padding-right: 16px;
+    padding-left: 16px;
     background-color: var(--image-bg-color);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-sizing: content-box;
+}
+
+.brands__carousel-item-image {
+    
+    box-sizing: border-box;
     margin: auto;
     object-fit: contain;
     object-position: 50% 50%;
-    height: 125.792px;
+    height: 72px;
 }
 
+
+.brands__buttons-container-next {
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 45px;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.brands__buttons-container-prev {
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 45px;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.brands__carousel-control-btn {
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+}
+
+@media (min-width: 320px) {
+    .brands__carousel-item {
+        width: 250px; 
+    }
+} 
+
+@media (min-width: 470px) {
+    .brands__carousel-item {
+        width: 400px; 
+    }
+} 
+
+@media (min-width: 768px) {
+    .brands__carousel-item {
+        width: 200px; 
+    }
+} 
+
+@media (min-width: 992px) {
+    .brands__carousel-item {
+        width: 167px;
+    }
+} 
+
+@media (min-width: 1198px) {
+    
+    .brands__carousel-item {
+        width: 208px;
+    }
+    
+    .brands__buttons-container-next {
+        background-color: transparent;
+        position: relative;
+        right: 5px;
+        display: flex;
+    }
+
+    .brands__buttons-container-prev {
+        background-color: transparent;
+        position: relative;
+        left: 5px;
+        display: flex;
+    }
+} 
