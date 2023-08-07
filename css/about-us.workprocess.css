@@ -104,12 +104,19 @@
 }
 
 @media (min-width: 992px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 -15px;
+    }
+
     .workprocess-column {
-        flex-basis: 30%;
-        margin-right: 30px;
+        flex-basis: calc(32.33% - 45px);
+        margin: 20px 25px 30px;
         padding: 15px;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        background-color: #23232b;
+        border-radius: 20px;
     }
 
     .workprocess-title {
