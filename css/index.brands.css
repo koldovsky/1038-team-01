@@ -5,7 +5,7 @@
 }
 
 .brands__title__container {
-    background-color: rgb(130, 28, 92);
+    background-color: var(--brands-bg-color);
     text-align: center;
     line-height: 26.01px;
     padding-top: 90px;
@@ -18,7 +18,7 @@
 }
 
 .brands__title {
-    color: #fff;
+    color: var(--title-color);
     font-weight: 600;
     font-size: 58px;
     font-family: var(--title-font);
@@ -28,12 +28,16 @@
 }
 
 .brands__subtitle {
-    color: rgba(255, 255, 255, 0.77);
+    color: var(--brands-subtitle-color);
     font-family: var(--text-font);
     font-size: 19px;
     padding: 0 24px;
     vertical-align: baseline;
     margin-top: 25px;
+}
+
+.brands__subtitle-links {
+    color: var(--brands-title-links-color);
 }
 
 .brands__carousel {
