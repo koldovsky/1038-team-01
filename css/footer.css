@@ -44,10 +44,10 @@
     margin-left: 10px;
   }
 .footer__social-text {
-    font-size: 12px;
+    font: 11px Lato, sans-serif;
   }
 .footer__social-link {
-    font-size: 14px;
+    font-size: 21px;
     color:white;
     text-decoration: none;
   }
@@ -109,7 +109,7 @@
     height: 40px;
   }
   
-  /* Мобільна версія стилів для футера */
+ 
 @media (max-width: 768px) {
    
   
@@ -134,13 +134,14 @@
     .footer__main-logo img {
       max-width: 120px; 
       margin-top: 0;
+      align-self: center;
       margin-bottom: 10px;
     }
   
     .footer__description {
       font-size: 14px; 
       margin-bottom: 10px;
-      text-align: center;
+    
     }
   
     .footer__social-icon {
@@ -159,8 +160,8 @@
     }
   
     .footer__social-text {
-      font-size: 10px; 
-    }
+        font: 11px Lato, sans-serif;
+      }
   
     .footer__social-link {
       font-size: 12px; 
