@@ -1,44 +1,60 @@
 
 .who-we-are{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: -130px;
+    background-position: 41.15% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     background: url("../img/index/who-we-are/bg_who-we-are-all.jpg");
-    background-position: 50% 50%;
+
+}
+.who-we-are__container{
+    background-position: 41.15% 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .who-we-are__picture-text{
-    margin: 100px 25%;
-    padding-top: 50px;
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
     
 }
+.who-we-are__picture-container{
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-height: 384px;
+}
 .who-we-are__img-working-on-project{
-    max-width: 50%;
+    object-fit: contain;
+    object-position: 50% 50%;
+    max-height: 384px;
 }
 
 .who-we-are__title{
-    margin: 15px;
-    color: #ffffff;
+    font-family: var(--title-font);
+    color: var(--title-color);
+    font-size: 2.125em;
 }
 .who-we-are__title-of-text{
-    margin: 15px;
-    color: #B4B4B4;
+    font-family: var(--text-font);
+    color: var(--subtitle-color);
+    font-size: 1.1875em;
+    font-weight: 700;
+    margin-top: 25px;
 }
 .who-we-are__text{
-    margin: 15px;
-    color: #A5A5A5;
+    font-family: var(--text-font);
+    color: var(--subtitle-color);
+    font-size: 1.0625em;
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 1.6256em;
 }
 .who-we-are__all-text{
-    float: left;
+    max-height: 384px;
     background: url("../img/index/who-we-are/bg_who-we-are-text.svg") no-repeat;
     background-size: 100%;
 }
@@ -81,7 +97,7 @@
     color: #A5A5A5;
 }
 .who-we-are__card-title-plus {
-    color: #F2B950;
+    color: var(--brands-title-links-color);
 }
 .who-we-are__cards-container {
     display: flex;
@@ -108,21 +124,15 @@
 
   @media (min-width: 770px) {
     .who-we-are__picture-text{
-        display: flex;
-        flex-direction: row;
+        grid-template-columns: 1fr 1fr;
     }
   }
 
   @media (min-width: 770px){
     .who-we-are__picture-text{
-        display: flex;
-        flex-direction: row;
+        grid-template-columns: 1fr 1fr;
 
     }
   }
   
-  @media (max-width: 1220px){
-    .who-we-are{
-       margin: 100px 0;
-    }
-  }
+

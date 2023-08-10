@@ -14,7 +14,7 @@
   margin-top: -110px;
   }
 
- @media (min-width: 992px) {
+ @media (min-width: 768px) {
     .mobile-first-approach__container {
        display: grid;
        grid-template-columns: 1fr 1fr;
@@ -36,7 +36,7 @@
     font-family: var(--title-font);
     font-size: 3rem;
     font-weight: 500;
-    margin: 10px 20px 10px 36px;
+    margin: 30px 20px 10px 36px;
     padding: 15px;
 }
 
@@ -69,18 +69,21 @@
     color: var(--title-color);
     font-family: var(--text-font);
     font-size: 1.3rem;
+    margin-left: 10px;
 }
 
 .article__name-analytics {
     color: var(--title-color);
     font-family: var(--text-font);
     font-size: 1.3rem;
+    margin-left: 10px;
 }
 
 .article__info {
     color: var(--text-color);
     font-family: var(--text-font);
     font-size: 1.1rem;
+    margin-left: 10px;
 }
 
 .article__container-image {
@@ -101,10 +104,18 @@
 }
 
 .mobile-first-approach__image {
-    margin-left: 0px;
+   max-width: 100%;
+   height: auto;
+}
+
+@media (max-width: 768px) {
+    .mobile-first-approach__image {
+        max-width: 50%; 
+    }
 }
 
 .iphone-screenshot {
-    width: 320px; 
+    width: 360px; 
+    margin-top: 45px;
 }
 
