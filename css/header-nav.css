@@ -234,7 +234,7 @@ header .banner-bg {
 }
 
 header .banner-bg_origin {
-    background: url(../img/header-bg.webp) no-repeat;
+    /*background: url(../img/header-bg.webp) no-repeat;*/
     padding: 0 24px;
     background-position: 48.44% 35.95%;
 }
