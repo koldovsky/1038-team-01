@@ -41,7 +41,7 @@
 
 @media (min-width: 768px) {
     .about-us__header-title {
-      font-size: 2.5625rem;
+        font-size: 2.5625rem;
     }
 }
 
@@ -49,12 +49,12 @@
     .about-us__header-title {
         font-size: 3rem;
     }
+
     .about-us__header-bread-crumbs-home {
-      font-size: 0.9375em;
+        font-size: 0.9375em;
     }
 
     .about-us__header-bread-crumbs-current {
         font-size: 0.9375em;
     }
 }
-

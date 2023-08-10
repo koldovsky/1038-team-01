@@ -1,26 +1,26 @@
 [
-    {
-       "image":"img/about-us/who-we-are/bulb.svg",
-       "alt":"Bulb idea",
-       "header":"Creativity",
-       "content":"We believe that creative thinking can solve the impossible and push boundaries to challenge common thinking. Our task is not to quickly find the easiest solution but thoroughly research and analyze the case to create the best possible result that meets the client's business needs and attracts a new audience."
-    },
-    {
-       "image":"img/about-us/who-we-are/reward.svg",
-       "alt":"Reward",
-       "header":"Quality",
-       "content":"We can say without a doubt that the highest quality is above all for us. We pay much attention to every detail in everything we produce to exceed clients\\' expectations and to make sure they leave us each time inspired and satisfied."
-    },
-    {
-       "image":"img/about-us/who-we-are/wheel.svg",
-       "alt":"Wheel",
-       "header":"Teamwork",
-       "content":"Thinking and working together, we merge our power to deliver the best possible and ingenious solutions. We deliberately sustain a collaborative atmosphere where every team member\\’s idea is heard, considered, and appreciated to make you benefit from the final result."
-    },
-    {
-       "image":"img/about-us/who-we-are/thumbs-up.svg",
-       "alt":"Thnumb up",
-       "header":"Dependability",
-       "content":"We strive to always provide our clients with what we guarantee, to meet every deadline, and to communicate proactively. We find the right approach to your business like to our own, we endeavor to deliver services you can completely rely on."
-    }
- ]
+   {
+      "image": "img/about-us/who-we-are/bulb.svg",
+      "alt": "Bulb idea",
+      "header": "Creativity",
+      "content": "We believe that creative thinking can solve the impossible and push boundaries to challenge common thinking. Our task is not to quickly find the easiest solution but thoroughly research and analyze the case to create the best possible result that meets the client's business needs and attracts a new audience."
+   },
+   {
+      "image": "img/about-us/who-we-are/reward.svg",
+      "alt": "Reward",
+      "header": "Quality",
+      "content": "We can say without a doubt that the highest quality is above all for us. We pay much attention to every detail in everything we produce to exceed clients\\' expectations and to make sure they leave us each time inspired and satisfied."
+   },
+   {
+      "image": "img/about-us/who-we-are/wheel.svg",
+      "alt": "Wheel",
+      "header": "Teamwork",
+      "content": "Thinking and working together, we merge our power to deliver the best possible and ingenious solutions. We deliberately sustain a collaborative atmosphere where every team member\\’s idea is heard, considered, and appreciated to make you benefit from the final result."
+   },
+   {
+      "image": "img/about-us/who-we-are/thumbs-up.svg",
+      "alt": "Thnumb up",
+      "header": "Dependability",
+      "content": "We strive to always provide our clients with what we guarantee, to meet every deadline, and to communicate proactively. We find the right approach to your business like to our own, we endeavor to deliver services you can completely rely on."
+   }
+]

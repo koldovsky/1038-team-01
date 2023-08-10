@@ -1,7 +1,7 @@
 @import url(global.css);
+@import url(index.news.css);
 @import url(index.services.css);
 @import url(services-carousel.css);
-@import url(index.news.css);
 @import url(index.events.css);
 @import url(index.who-we-are.css);
 @import url(index.mobile-approach.css);
@@ -12,4 +12,3 @@
 @import url(index.strengths.css);
 @import url(index.our-awards.css);
 @import url(header-nav.css);
-

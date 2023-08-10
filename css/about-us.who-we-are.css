@@ -4,11 +4,9 @@
 }
 
 .about-us-who-we-are-container {
-
     background-position: 41.15% 100%;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .about-us-who-we-are__info-block {
@@ -84,7 +82,7 @@
 }
 
 .accordion__item {
-    background: rgb(35, 35, 43);
+    background: var(--image-bg-color);
     border-radius: 10px;
     margin-top: 30px;
 }

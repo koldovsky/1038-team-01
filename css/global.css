@@ -21,6 +21,8 @@
     --brands-bg-color: rgb(130, 28, 92);
     --brands-subtitle-color: rgba(255, 255, 255, 0.77);
     --brands-title-links-color: #f2b950;
+    --buttons-bg-color: linear-gradient(90deg, rgb(242, 185, 80), rgb(218, 89, 95));
+    --buttons-bg-color-hover: linear-gradient(90deg, rgb(218, 89, 95), rgb(242, 185, 80));
 }
 
 .container {
@@ -29,7 +31,7 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 img {
