@@ -38,54 +38,6 @@
     color: rgba(29, 29, 36, 0);
 }
 
-/* .navigation__menu-logo {
-    width: 170px;
-}
-
-.navigation {
-    width: 100%;
-}
-
-.navigation,
-.navigation__wraper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
-}
-
-.navigation__wraper-pages {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 400px;
-    margin-right: 250px;
-}
-
-.navigation__wraper-pages a {
-    color: white;
-    text-decoration: none;
-}
-
-.navigation__wraper-social {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 200px;
-}
-
-.navigation__wraper-social a {
-    color: white;
-    text-decoration: none;
-} */
-
-
-
-/* .header__content {
-    margin-top: 200px;
-    margin-left: 75px;
-} */
-
 section div .banner {
     padding: 100px 0 130px 0;
 }
@@ -148,10 +100,6 @@ div .links__request:hover {
 
 @media (min-width: 381px) {
 
-    /*.container-top,*/
-    /*.container-section {*/
-    /*    max-width: 431px;*/
-    /*}*/
     div .banner__text h1 {
         max-width: 431px;
     }
@@ -159,10 +107,6 @@ div .links__request:hover {
 
 @media (min-width: 480px) {
 
-    /*.container-top,*/
-    /*.container-section {*/
-    /*    max-width: 719px;*/
-    /*}*/
     div .banner__text h1 {
         max-width: 530px;
     }
@@ -170,10 +114,6 @@ div .links__request:hover {
 
 @media (min-width: 768px) {
 
-    /*.container-top,*/
-    /*.container-section {*/
-    /*    max-width: 785px;*/
-    /*}*/
     section div .banner__text {
         width: 50%;
     }
@@ -188,10 +128,7 @@ div .links__request:hover {
 
 @media (min-width: 846px) {
 
-    /*.container-top,*/
-    /*.container-section {*/
-    /*    max-width: 926px;*/
-    /*}*/
+
     section div .banner__text {
         width: 50%;
         max-width: 463px;
@@ -204,12 +141,7 @@ div .links__request:hover {
 
 @media (min-width: 991px) {
 
-    /*.container-top,*/
-    /*.container-section {*/
-    /*    max-width: 1120px;*/
-    /*    margin: auto;*/
-    /*    padding: 0 24px;*/
-    /*}*/
+
     section div .banner__text {
         width: 50%;
         max-width: 472px;
@@ -230,10 +162,6 @@ div .links__request:hover {
 
 @media (min-width: 1025px) {
 
-    /*.container-top,*/
-    /*.container-section {*/
-    /*    max-width: 1120px;*/
-    /*}*/
     section div .banner__text {
         width: 50%;
         max-width: 560px;
@@ -243,7 +171,6 @@ div .links__request:hover {
         font-size: 5.3rem;
         line-height: 5.82rem;
         margin-top: 0;
-        /* min-width: 449px; */
         max-width: 507px;
     }
 
@@ -254,17 +181,8 @@ div .links__request:hover {
 
 @media (min-width: 1280px) {
 
-    /*.container-top,*/
-    /*.container-section {*/
-    /*    min-width: 1120px;*/
-    /*    max-width: 60%;*/
-    /*}*/
-    /*.container-section {*/
-    /*    padding: 0;*/
-    /*}*/
     section div .banner__text {
         width: 50%;
-        /* max-width: 585px; */
     }
 
     div .banner__text h1 {

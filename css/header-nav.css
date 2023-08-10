@@ -98,10 +98,10 @@ div .links__about:hover {
 
 @media (min-width: 381px) {
 
-    /* .container-top, */
     .header__content {
-       max-width: 431px;
+        max-width: 431px;
     }
+
     div .banner__text h1 {
         max-width: 431px;
     }
@@ -109,10 +109,10 @@ div .links__about:hover {
 
 @media (min-width: 480px) {
 
-    /*.container-top,*/
     .header__content {
-       max-width: 719px;
+        max-width: 719px;
     }
+
     div .banner__text h1 {
         max-width: 530px;
         font-size: 2.52rem;
@@ -121,9 +121,8 @@ div .links__about:hover {
 }
 
 @media (min-width: 768px) {
-    /*.container-top,*/
     .header__content {
-       max-width: 785px;
+        max-width: 785px;
     }
 
     section div .banner__text {
@@ -139,9 +138,8 @@ div .links__about:hover {
 }
 
 @media (min-width: 846px) {
-    /*.container-top,*/
     .header__content {
-       max-width: 926px;
+        max-width: 926px;
     }
 
     section div .banner__text {
@@ -155,11 +153,8 @@ div .links__about:hover {
 }
 
 @media (min-width: 991px) {
-    /*.container-top,*/
     .header__content {
-       max-width: 1120px;
-       /* margin: auto; */
-       /* padding: 0 24px; */
+        max-width: 1120px;
     }
 
     section div .banner__text {
@@ -181,9 +176,8 @@ div .links__about:hover {
 }
 
 @media (min-width: 1025px) {
-    /*.container-top,*/
     .header__content {
-       max-width: 1120px;
+        max-width: 1120px;
     }
 
     section div .banner__text {
@@ -195,7 +189,7 @@ div .links__about:hover {
         font-size: 5.3rem;
         line-height: 5.82rem;
         margin-top: 0;
-        /* min-width: 449px; */
+
         max-width: 507px;
     }
 
@@ -205,23 +199,23 @@ div .links__about:hover {
 }
 
 @media (min-width: 1280px) {
-    /*.container-top,*/
+
     .header__content {
-       min-width: 1120px;
-       max-width: 60%;
+        min-width: 1120px;
+        max-width: 60%;
     }
+
     .header__content {
-       padding: 0;
+        padding: 0;
     }
 
     section div .banner__text {
         width: 50%;
-        /* max-width: 585px; */
+
     }
 
     div .banner__text h1 {
-        /* font-size: 2.0rem; */
-        /* line-height: 5.82rem; */
+
         margin-top: 0;
         width: 100%;
     }
@@ -231,21 +225,8 @@ div .links__about:hover {
     }
 }
 
-/* Navigation styles */
-
-/*.container-top {*/
-/*    max-width: 380px;*/
-/*    margin: auto;*/
-/*}*/
-
-/*.container-top_flex {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    max-width: 332px;*/
-/*    margin: auto;*/
-/*}*/
 header .banner-bg {
-    /* min-height: 75vh; */
+
     background-size: cover;
     background-position: 43.44% 84.95%;
 }
@@ -442,9 +423,6 @@ section div nav .navigation-logo img {
         display: flex;
     }
 
-    /* header .banner-bg { */
-    /* min-height: calc(100vh - 79px); */
-    /* } */
 
     section div .navigation .navigation-wrapper {
         display: flex;
@@ -456,7 +434,7 @@ section div nav .navigation-logo img {
     section div nav .navigation-pages {
         font-size: 0.92rem;
         font-weight: 700;
-        /*color: var(--nav-pages-color);*/
+
         min-width: 480px;
         display: flex;
         justify-content: space-around;
@@ -473,24 +451,11 @@ section div nav .navigation-logo img {
     }
 
     section div nav .navigation-pages a:hover {
-       color: var(--brand-color);
-       cursor: pointer;
+        color: var(--brand-color);
+        cursor: pointer;
     }
 
-    /*section div nav .navigation-pages a:after {*/
-    /*    content: " ";*/
-    /*    display: block;*/
-    /*    position: absolute;*/
-    /*    left: 0;*/
-    /*    width: 0;*/
-    /*    height: 3px;*/
-    /*    border-radius: 0.1rem;*/
-    /*    background-color: var(--button-black-color);*/
-    /*    transition: width 0.2s ease-in;*/
-    /*}*/
-    /*section div nav .navigation-pages a:hover:after {*/
-    /*    width: 100%;*/
-    /*}*/
+
     section div nav .navigation-social {
         min-width: 172px;
         display: flex;
@@ -502,11 +467,4 @@ section div nav .navigation-logo img {
         border-radius: 0.4rem;
     }
 
-    /*section div nav .navigation-social a:hover {*/
-    /*    max-width: 32px;*/
-    /*    border: 1px solid var(--button-black-color);*/
-    /*    border-radius: 0.2rem;*/
-    /*    box-shadow: 0 0 2px var(--offer-jbl-color);*/
-    /*    transform: scale(2);*/
-    /*}*/
 }
