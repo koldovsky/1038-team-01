@@ -55,9 +55,18 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
-    background-color: #23232b;
+    background-color: #1D1D24;
     width: fit-content;
 
+}
+
+.case__reverse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #1D1D24;
+    width: fit-content;
 }
 
 .case__image {
@@ -65,8 +74,14 @@
     display: block;
 }
 
+.case__image-reverse{
+    width: 100%;
+    display: block;
+}
+
 .case__text-container {
     margin-top: 25px;
+    background-color: #1D1D24;
 }
 
 .case__category {
@@ -130,16 +145,31 @@
         background-color:#23232b;
         text-align: center;
     }
+
+    .case__reverse {
+        flex-direction: row-reverse;
+        margin: auto;
+        width: 100%;
+        background-color:#23232b;
+        text-align: center;
+    }
     .case__image {
-        width: 45%;
+        width: 50%;
         margin-right:0;
         margin-bottom: 0;
+    }
+
+    .case__image-reverse{
+        width: 50%;
+        margin-right:0;
+        margin-bottom: 0;
+
     }
 
     .case__text-container {
         width: 240%;
         margin:0;
-        background-color: #090911;
+        background-color: #1D1D24;
         background-size: cover;
     }
 
