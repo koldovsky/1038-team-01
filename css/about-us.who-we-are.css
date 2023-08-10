@@ -4,11 +4,11 @@
 }
 
 .about-us-who-we-are-container {
-    
+
     background-position: 41.15% 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 .about-us-who-we-are__info-block {
@@ -105,30 +105,87 @@
     grid-column: 1;
 }
 
-.item__button {
-    grid-column: 2;
-    transition: 0.4s;
-  }
+.accordion__item-button {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
 
-.item__content {
+.accordion__item-content {
     font-family: var(--text-font);
     font-size: 1.0625em;
-    color: var(--text-color);
+    color: var(--subtitle-color);
     margin-top: 25px;
     font-weight: 400;
-    display: none;
-    padding: 0 18px;
+    max-height: 0;
     overflow: hidden;
+    transition: max-height 1.3s ease;
     grid-column: span 2;
+}
+
+.opencontent {
+    max-height: 500px;
+}
+
+.accordion__item-button-line {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.accordion__item-button-line1 {
+    top: 50%;
+}
+
+.accordion__item-button-line2 {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    transform: translateX(-50%) rotate(90deg);
+}
+
+.accordion__item-button.open .accordion__item-button-line2 {
+    animation: fadeIn 0.7s ease;
+    opacity: 0;
+}
+
+.accordion__item-button.close .accordion__item-button-line2 {
+    animation: fadeOut 0.7s ease;
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 0;
+    }
+
+    0% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @media (min-width: 768px) {
     .about-us-who-we-are__accordion {
         grid-template-columns: 1fr 1fr;
     }
+
     .about-us-who-we-are__info-block {
         grid-template-columns: 1fr 1fr;
     }
+
     .info-block__image-container {
         margin-top: 0px;
     }

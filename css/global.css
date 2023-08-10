@@ -17,12 +17,15 @@
     --block-bg-color: rgb(29, 29, 36);
     --image-bg-color: rgb(35, 35, 43);
     --button-text-color: white;
-    --background-color: black; 
+    --background-color: black;
+    --brands-bg-color: rgb(130, 28, 92);
+    --brands-subtitle-color: rgba(255, 255, 255, 0.77);
+    --brands-title-links-color: #f2b950;
 }
 
 .container {
     max-width: 1200px;
-    margin: auto;   
+    margin: auto;
 }
 
 a {
