@@ -1,9 +1,9 @@
-.service-wrapper {
+/* .service-wrapper {
     background: url("../img/services/title-background.svg");
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
 .service-title {
     font-family: var(--title-font);
