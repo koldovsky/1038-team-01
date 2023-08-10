@@ -35,7 +35,7 @@
 
 .svg-path-fill-none {
     fill: none;
-    color: rgba(29, 29, 36, 0);
+    color: rgba(255, 255, 255, 0);
 }
 
 section div .banner {
@@ -48,7 +48,7 @@ section div .banner__text {
     justify-content: flex-start;
 }
 
-div .banner__text h1 {
+/* div .banner__text h1 {
     font-family: var(--title-font);
     font-size: 3.52rem;
     font-weight: 900;
@@ -67,7 +67,7 @@ div .banner__text p {
     height: auto;
     letter-spacing: normal;
     text-align: left;
-}
+} */
 
 div .links {
     margin-top: 25px;
